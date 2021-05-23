@@ -3,6 +3,7 @@ class Calculadora{
 public $resultado=0;
 public $valor1;
 public $valor2;
+
 public function __construct($numero1,$numero2)
 	{
 		$this->valor1 = $numero1;
