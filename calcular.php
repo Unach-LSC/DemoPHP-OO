@@ -19,6 +19,7 @@ switch ($operador) {
       break;
     case "*":
       echo "División";
+      echo $objCalculadora->dividir();
       break;
     default:
       echo "error";

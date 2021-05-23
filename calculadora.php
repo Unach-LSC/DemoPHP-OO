@@ -15,5 +15,8 @@ public function restar(){
 public function multiplicar(){
     return $this->valor1*$this->valor2;
 }
+public function dividir(){
+    return $this->valor1/$this->valor2;
+}
 }
 ?>
