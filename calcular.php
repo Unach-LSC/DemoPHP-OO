@@ -15,6 +15,7 @@ switch ($operador) {
       break;
     case "*":
       echo "Multiplicación";
+      echo $objCalculadora->multiplicar();
       break;
     case "*":
       echo "División";

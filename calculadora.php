@@ -12,5 +12,8 @@ public function restar(){
     $numero2=$this->valor2;
     return $numero1-$numero2;
 }
+public function multiplicar(){
+    return $this->valor1*$this->valor2;
+}
 }
 ?>
