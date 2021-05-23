@@ -1,6 +1,6 @@
 <?php
 include_once "calculadora.php";
-$objCalculadora = new Calculadora;
+$objCalculadora = new Calculadora(0,0);
 $objCalculadora->valor1 = $_POST['num1'];
 $objCalculadora->valor2 = $_POST['num2'];
 $operador = $_POST['operador'];
@@ -17,9 +17,10 @@ switch ($operador) {
       echo "Multiplicación";
       echo $objCalculadora->multiplicar();
       break;
-    case "*":
+    case "/":
       echo "División";
-      echo $objCalculadora->dividir();
+      $objCalculadora2 = new Calculadora(10,2);
+      echo $objCalculadora2->dividir();
       break;
     default:
       echo "error";
