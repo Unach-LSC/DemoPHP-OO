@@ -22,11 +22,7 @@
     </tr>
     <tr>
     <td><label> Operador :</label></td>
-    <td> <select name="operador" style="border:solid2px;font-size:12px;
-    font-weight:bold; background:#918973;border-radius:3px;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    margin-right:13px;">
+    <td> <select name="operador" >
     <option value="+">+</option>
     <option value="-">-</option>
     <option value="*">*</option>
